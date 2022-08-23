@@ -42,3 +42,14 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list li"
 );
 mobileNavbar.init();
+
+const scrollUp = document.querySelector("#scroll-up");
+
+scrollUp.addEventListener("click", () => {
+  // console.log("teste");
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
