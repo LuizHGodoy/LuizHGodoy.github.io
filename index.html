@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <header>
+    <header>      
       <nav>
         <a class="logo blink-animation" href="/">Luiz Godoy</a>
         <div class="mobile-menu">
@@ -17,20 +17,22 @@
           <div class="line2"></div>
           <div class="line3"></div>
         </div>
-        <ul class="nav-list">
-          <!-- <li><a href="#start">Início</a></li> -->
+
+        <input type="checkbox" class="checkbox" id="chk"/>
+          <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
+
+        <ul class="nav-list">         
           <li><a href="#about">Sobre</a></li>
           <li><a href="#projects">Projetos</a></li>
-          <li><a href="#contact">Contato</a></li>
+          <li><a href="#contact">Contato</a></li>          
         </ul>
+          
       </nav>
     </header>
-    <!-- <section class="start" id="start">
-      <div>
-
-      </div>
-      </p>
-    </section> -->
 
     <section class="about" id="about">
       <div>
@@ -52,14 +54,17 @@
       </div>
       </p>
     </section>
-    <i class="scroll-up up-arrow-animation" id="scroll-up"
-     ><img
+    
+    <i class="scroll-up up-arrow-animation" id="scroll-up">
+      <img
        src="/assets/images/icons8-upward-arrow-66.png"
        class="socicon up-arrow"
        alt="up-arrow"
-/></i>
-    <main></main>
+      />
+    </i>
+    
     <script src="mobile-navbar.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
     <footer>&copy;2022. All Rights Reserved</footer>
   </body>
 </html>
